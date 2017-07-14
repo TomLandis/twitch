@@ -49,7 +49,7 @@ channelArray.forEach(function (element) {
         i++;
       } else {
         $("#c" + i).addClass("online");
-        $("#c" + i).append("<a href=" + data._links.self + "><p id=" + data._links.self + ">Watch Live " + data.stream.game + "</p> <img src=" + data.stream.preview.small + "></a>");
+        $("#c" + i).append("<p id=" + data._links.self + ">Watch Live " + data.stream.game + "</p> <img src=" + data.stream.preview.small + ">");
         i++;
       }
     },
