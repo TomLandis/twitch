@@ -1,0 +1,102 @@
+body {
+  background-color: #874ec9;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.5s ease;
+}
+#buttons {
+  margin: auto;
+  float: center;
+  text-align: center;
+  
+}
+h3 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 7vmin;
+  text-align: center;
+}
+h4 {
+  font-family: 'Fugaz One', cursive;
+  color: red;
+  font-size: 5.5vmin;
+}
+h5 {
+  font-size: 6vmin;
+}
+h1 {
+  font-size: 13vmin;
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+#liveNotice {
+ 
+}
+#channels {
+  display: flex;
+  flex-direction: row;
+  background-color: #874ec9;
+  padding: 3px;
+  
+  margin: auto;
+ 
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+border: 0px solid  #874ec9;
+}
+
+.offline {
+ background-color: #c4c4c4;
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+   opacity: .9;
+  padding: 2vw;
+   margin-bottom: 3px;
+}
+
+.online {
+  
+  background-color: #ffff60;
+  border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+  padding: 2vw;
+   margin-bottom: 1vw;
+}
+
+.thumb {
+  max-width: 20vmin;
+  border-radius:50%;
+  float: left;
+   
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  background-color: #650091;
+  color: white;
+  transition: all 0.5s ease;
+}
+button {
+  padding: 3vw;
+  font-family: 'Fugaz One', cursive;
+  font-size: 8vmin;
+}
+button:hover {
+ background-color: #650091;
+  color: white;
+  transition: all 0.5s ease;
+}
+
